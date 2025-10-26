@@ -18,3 +18,4 @@ EXPOSE 3000
 
 # Default command
 CMD ["npm", "start"]
+
