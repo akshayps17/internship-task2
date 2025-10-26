@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "📦 Cloning repository..."
-                git branch: 'test', url: 'https://github.com/akshayps17/nodejs-demo-app.git'
+                git branch: 'main', url: 'https://github.com/akshayps17/internship-task2.git'
             }
         }
 
